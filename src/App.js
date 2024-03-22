@@ -1,19 +1,20 @@
+import { Routes, Route } from "react-router-dom";
+
 import "./App.css";
 import "./util.js";
-
-import { getEmotionById } from "./util.js";
-
+import Home from "./pages/Home.js";
+import Edit from "./pages/Edit.js";
+import New from "./pages/New.js";
+import Diary from "./pages/Diary.js";
 function App() {
   return (
     <div className="App">
-      <h1>폰트테스트</h1>
-      <div>
-        <img alt="감정1" src={getEmotionById(1)} />
-        <img alt="감정1" src={getEmotionById(2)} />
-        <img alt="감정1" src={getEmotionById(3)} />
-        <img alt="감정1" src={getEmotionById(4)} />
-        <img alt="감정1" src={getEmotionById(5)} />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/edit" element={<Edit />} />
+        <Route path="/new" element={<New />} />
+        <Route path="/diary" element={<Diary />} />
+      </Routes>
     </div>
   );
 }
