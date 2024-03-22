@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "maplestory Bold";
+  src: url(./font/Maplestory\ Bold.ttf);
+}
+
+body {
+  font-family: "maplestory Bold";
+}
