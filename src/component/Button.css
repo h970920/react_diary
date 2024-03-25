@@ -10,3 +10,18 @@
   white-space: nowrap;
   font-family: "maplestory Bold";
 }
+
+.Button_default {
+  background-color: #ececec;
+  color: black;
+}
+
+.Button_positive {
+  background-color: #4caf50;
+  color: white;
+}
+
+.Button_negative {
+  background-color: #f44336;
+  color: white;
+}
