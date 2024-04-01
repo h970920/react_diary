@@ -1,0 +1,51 @@
+.Header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.Header > div {
+    display: flex;
+}
+.Header > button {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'maplestory Bold';
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+
+.Header > button:hover {
+    background-color: #f2f2f2;
+}
+
+.Header > button:active {
+    background-color: #e2e2e2;
+}
+
+.Header,
+.header_title {
+    width: 50%;
+    font-size: 25px;
+    justify-content: center;
+}
+.Header,
+.header_left {
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.Header,
+.header_right {
+    width: 25%;
+    justify-content: flex-end;
+}
